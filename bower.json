@@ -1,0 +1,27 @@
+{
+  "name": "align-blocks",
+  "homepage": "https://clippings/clippings/align-blocks",
+  "version": "0.0.1",
+  "authors": [
+    "Ivan Kerin <ikerin@gmail.com>"
+  ],
+  "description": "Arrange Images with percentages",
+  "main": [
+    "js/align-blocks.min.js",
+    "sass/align-blocks.sass"
+  ],
+  "moduleType": "globals",
+  "keywords": [
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "build",
+    ".sass-cache",
+    "Gruntfile.js",
+    "js"
+  ]
+}
