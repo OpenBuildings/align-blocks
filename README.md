@@ -2,7 +2,7 @@ Align Blocks
 ============
 
 [![Build Status](https://travis-ci.org/clippings/align-blocks.svg?branch=master)](https://travis-ci.org/clippings/align-blocks)
-[![Codacy Badge](https://api.codacy.com/project/badge/8a76e0f9ec414ae79aca59bd9f10e24a)](https://www.codacy.com/app/clippings/align-blocks)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/e614af258a93423ab0056c93fb101c62)](https://www.codacy.com/app/clippings/align-blocks)
 [![Dependency Status](https://david-dm.org/clippings/align-blocks.svg)](https://david-dm.org/clippings/align-blocks)
 [![devDependency Status](https://david-dm.org/clippings/align-blocks/dev-status.svg)](https://david-dm.org/clippings/align-blocks#info=devDependencies)
 

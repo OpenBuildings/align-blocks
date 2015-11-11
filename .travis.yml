@@ -16,6 +16,7 @@ before_deploy: grunt dist
 deploy:
   - provider: releases
     api_key:
+      secure: iNLVugsA9zSqNTErwjz6fAEKl4Qex4GO3BSQx8HK6DDI1B8cSfJ9BAJY3Y7uwxB/9IVDv+EKh50GmnDLFHprBYMq9Q6N8HgApT2iUAN4GxyLO8FsPM4XVch+J9m8U0uH675vTlqzGYcI/QS+VaR9Z7htYBm+x8SeP2opdPAxgKivZbra1CkBPvrFbx3W+0jKRoFsJasN1tZavxoNKuSarFpe+6csfcWsyrSF8GMZRx2L56bTiQMnmT9LXGwYGF5ABurHYaF/0sc35tej2oJoyxlB9tSatxzQfPXrzIyt2NfecNE6GKkEym/8LJTLpSgcBOVgIrXzQV3iyniMTO4CksEtFnQL6fWgqf9kIw3+Spv66O1NSUFlOtspslwWNrCm4jTzwKQqEKTG+OQlgDY7KsF1jPG4IckKRh16PFKwJZQVIajpscu1hHAfhEf/xVrtTRQnG0lqlQoNQF5v7W5+P4D25xInDVidR64EGS/UPDTSyvCE4ZKNUJ/7kFyXaBF4zBNUq1o9G1y9BKCU3yuxK/J1dSOZ+7xeSFN3hgcI1NYtLCiHjWVDdcSUQJtjKqKjY981Xhqx2JXcNApuTiJ5SzPnGq5dfAgfxY5Y9O94MSrV9Cjqe90ebF8F5URV2wRJORSslBwD4cXvkfkcQCf53tZcKObqbB96POCnzIbQ3QE=
     skip_cleanup: true
     file: align-blocks.zip
     on:
@@ -25,6 +26,7 @@ deploy:
     email: ikerin@gmail.com
     skip_cleanup: true
     api_key:
+      secure: "rAVHTE/x+/P14w03O8f37L8NT8gK4+wGFb4mSECWO/DrVz3y9EJ8FLoApDkw8mGpygvBtmxpVF4sPL+V7G7/QfxWoW++jbPC3G/4CPBdrtWngjuFL2hLbJG5YuvlB2IrUuyZ8ZLrsmzbBPK5MBgll6PU6/Axg1BgSId1jTABqTJhr6S6AqrAMlERoQv2o6Jc3Jm6srhpRFVj4kYO5+WUTRsNlPc8SuJMchM0Zvi+k4wv0uzh23DrdlZgV90T5iuc9cIqe4sYUSzLj6BP1YbJPHIv2xYgpkpBm1A7pPCzkPytjgh9MmH/2i07u/eLPR/zbbTijKbWXaxeZIwBJuNx8eiIQwltsmthZHDDhCcXeTBWkmDuFpAJdT62mW7mFBz0xHJhinfhett5dCtaqkLfV02IT3PxVPA3UtanCCZmTTYIAbJ17sCOssyTmVtsZF1XHrJFKu4nb5duPI49NbIy3HiYPPE2WCQHfH/OCMvKydfqnAMWCKgTDvzhexGMLmxrKpgm+92zhJSHD+SFZSeCLuCzs96U5e2wO2Qi+kPAWEZGBQq8EaVPuNL0ps2lY4wLDWkz0HvO1gA6zXSFF6K1+8fHoRKbvvwPG0mWMviyaldTvM0s8rBytxX8o9Ger1jeTHty+Fw6yvmNd0mLEBr2+7/n1TAk+rWH/M5tPZuyw8Q="
     on:
       repo: clippings/align-blocks
       tags: true
